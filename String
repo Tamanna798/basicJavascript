@@ -1,9 +1,10 @@
 # basicJavascript
- const fruits = [
-    { Name: "Apple", count: 4},
-    { Name: "Banana", count: 6 },
-    { Name: "Mango", count: 6},
-     {Name:"Apple",count:1}]
+
+  const fruits = [
+    { Name: "Apple", count: 2},
+    { Name: "Banana", count: 2 },
+    { Name: "Mango", count: 9},
+     {Name:"Apple",count:3}]
 console.log("Simple Array :", fruits)
 
 function addfruits(FruitAdd) {
@@ -15,7 +16,7 @@ function addfruits(FruitAdd) {
         fruits.push(FruitAdd)
     }
 }
-addfruits({ Name: "Cherry", count: 1 })
+addfruits({ Name: "Cherry", count: 2 })
 addfruits({ Name: "Watermelon", count: 1 })
 addfruits({ Name: "Apple", count: 1 })
 addfruits({ Name: "Banana", count: 1 })
