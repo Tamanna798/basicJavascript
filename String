@@ -16,8 +16,8 @@ function addfruits(FruitAdd) {
         fruits.push(FruitAdd)
     }
 }
-addfruits({ Name: "Cherry", count: 2 })
-addfruits({ Name: "Watermelon", count: 1 })
+addfruits({ Name: "Lichi", count: 2 })
+addfruits({ Name: "orange", count: 1 })
 addfruits({ Name: "Apple", count: 1 })
 addfruits({ Name: "Banana", count: 1 })
 console.log( fruits)
